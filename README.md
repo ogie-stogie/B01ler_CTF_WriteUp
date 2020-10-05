@@ -14,8 +14,10 @@ For this challenge I figured out that the file contained values used for an RSA 
 <br>
 And here is the result I obtained: flag{4cce551ng_th3_subc0nsc10us}<br>
 ### Crypto: Totem
-In this challenge, we were given a python template code for submitting data to a server. When first accessing the site, you would see that you were asked to decrypt various encryptions correctly. If one was wrong then you would have to start over. John then joined me on this challenege and we looked into the totem.py file that was given. We could see we were given the template for automating 1000 decryptions with four methods (atbash, baconian, base64, rot13). With these two files (totem.py and decrypt_bacon), we were able to get this output (with test print statements):<br><br>
-[terminal picture]<br><br>
+In this challenge, we were given a python template code for submitting data to a server. When first accessing the site, you would see that you were asked to decrypt various encryptions correctly. If one was wrong then you would have to start over. John then joined me on this challenege and we looked into the totem.py file that was given. We could see we were given the template for automating 1000 decryptions with four methods (atbash, baconian, base64, rot13). With these two files (totem.py and decrypt_bacon), we were able to get this output (with added test print statements for debugging):<br>
+<br>
+![](https://github.com/tbart27/B01ler_CTF_WriteUp/blob/main/crypto1.png)<br>
+<br>
 After 1000 iterations we received this flag: ctf{4n_313g4nt_s01ut10n_f0r_tr4cking_r341ity}
 ### Crypto World: G1 (Mini-Challenge)
 Bryan, James and I looked into Crypto World. We accessed the site (http://chal.ctf.b01lers.com:1337) where we were greeted with a custom terminal. At first we are shown a tutorial where we are taught basic syntax for submitting answers. Evntually you will reach a stage of questions which will ask: <br>
