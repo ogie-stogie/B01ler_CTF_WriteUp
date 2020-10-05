@@ -36,4 +36,4 @@ There is no Spoon was a buffer overflow where your input will be read into a buf
 <br>
 
 ### Conclusion
-We were able to find 4 flags as a team (albeit one was a mini flag).
+We were able to find 4 flags as a team (albeit one was a mini flag). We attempted other problems such as: Clear the Mind, level 2 of Crypto World, and Metacortex. For Clear the Mind, we had a similar setup but RsaCtfTool failed with an inverse error. I believe this means I need to give it additional info/parameters so that it can reduce the complexity of the problem but we moved on from this and never got back to debug further. For level 2 of Crypto World, it was the same setup but with larger moduli and divisors. The CTF ended as we finished #1 so we never got a chance to develop a faster alogorithm to solve this (we did try brute forcing about 100000000 numbers). Lastly, with metacortex we reached a deadend and couldn't invoke different output from the program. At that point we decided to move on and unfortunately none of us had an epiphany for new test cases.
